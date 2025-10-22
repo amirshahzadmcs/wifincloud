@@ -1,0 +1,65 @@
+subscribers
+    subscriber_id
+    name
+    email 
+    phone
+    status
+    registered_on 
+    
+subscribers_mac
+    mac_id
+    subscriber_id
+    device_mac
+    registered_on
+    status
+
+subscribers_meta
+    meta_id
+    subscriber_id
+    birthday
+    gender
+    device_type
+    logged_via (channel_id)
+
+login_channels
+    channel_id
+    channel_name
+
+login_history
+    history_id
+    subscriber_id
+    last_login_time
+    login_count
+
+login_history_detail
+    history_detail_id
+    subscriber_id
+    channel_id
+    login_time
+
+login_auth
+    auth_id
+    subscriber_id
+    auth_gen_time
+    auth_via
+    auth_number
+    auth_expiry_time
+
+locations
+    location_id
+    location_name
+    location_address
+    location_coordinates
+    registered_on
+    updated_on
+    status
+
+ap_devices
+    device_id
+    device_mac
+    location_id
+    registered_on
+    updated_on
+    status
+    
+    

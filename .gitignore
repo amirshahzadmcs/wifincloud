@@ -1,0 +1,46 @@
+# CodeIgniter 3 /application/config/ sensitive files
+application/config/database.php
+application/config/config.php
+application/config/credentials.php
+
+
+# Logs and cache
+/application/logs/*
+!application/logs/index.html
+/application/cache/*
+!application/cache/index.html
+
+# System folder (optional if you want to include CI core files)
+# /system/*
+
+# Composer vendor directory
+/vendor/
+/assets/
+/uploads/
+
+# IDE/editor files
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.vscode/
+*.DS_Store
+*.swp
+*.bak
+
+# Node modules if you are using Node
+/node_modules/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+*.tmp
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Environment files
+.env
